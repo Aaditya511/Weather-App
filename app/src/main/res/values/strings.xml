@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_home">Home</string>
+    <string name="title_reports">Reports</string>
+    <string name="title_city">City</string>
+    <string name="title_settings">Setting</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="temp_main">%1$s°</string>
+    <string name="temp_min_max">%1$s\° - %2$s\°</string>
+    <string name="letter_celcius">C</string>
+    <string name="letter_ferhenhite">F</string>
+    <string name="weather_info"><b>%1$s</b> (%2$s)</string>
+    <string name="humidity"><b>Humidity:</b> %1$s</string>
+    <string name="pressure"><b>Pressure:</b> %1$s mbar</string>
+    <string name="wind">Wind</string>
+    <string name="wind_speed"><b>Speed:</b> %1$s mi/h</string>
+    <string name="wind_degree"><b>Degree:</b> %1$s°</string>
+    <string name="welcome_msg">Hi, Please Enter Name</string>
+    <string name="welcome_user_msg">Hi, %1$s</string>
+    <string name="weather_reports">Weather Report</string>
+    <string name="save">Save</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="temperature_unit">Temperature Unit</string>
+    <string name="celsius">Celsius</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="loading">Loading...</string>
+    <string name="select_date">Select Date</string>
+</resources>
