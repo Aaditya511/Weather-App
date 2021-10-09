@@ -53,7 +53,6 @@ class CurrentFragment : BaseFragment() {
                     it.humidity, it.pressure, it.wind_deg, it.wind_speed, it.weather.getOrNull(0),
                     temp, tempUnit, temp, temp
                 )
-
             }
         }
     }

@@ -8,15 +8,15 @@
         <item name="android:layout_height">wrap_content</item>
     </style>
 
-    <style name="baseText.Large">
+    <style name="baseText.Large" parent="baseText">
         <item name="android:textSize">36sp</item>
     </style>
 
-    <style name="baseText.medium">
+    <style name="baseText.medium" parent="baseText">
         <item name="android:textSize">24sp</item>
     </style>
 
-    <style name="baseText.normal">
+    <style name="baseText.normal" parent="baseText">
         <item name="android:textSize">16sp</item>
     </style>
 

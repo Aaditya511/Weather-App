@@ -8,12 +8,12 @@ import retrofit2.http.Query
 
 interface OpenWeatherAPIService {
 
-    @GET("/forecast/daily?q={cityName}&cnt={cnt}&appid={appId}&units={unit}")
+    @GET("/forecast/daily")
     fun getCityData(
-        @Query("cityName") cityName: String,
+        @Query("q") cityName: String,
         @Query("cnt") cnt: Int,
         @Query("appid") appid: String,
-        @Query("unit") unit: String
+        @Query("units") unit: String
     ): Call<JsonElement?>
 
     @GET("/data/2.5/onecall?exclude=minutely,hourly,daily,alerts")
